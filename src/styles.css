@@ -1,1 +1,15 @@
 /* You can add global styles to this file, and also import other style files */
+body{
+    background-color: rgb(245, 245, 245);
+    margin: 0%;
+}
+
+body #container {
+    /* display:grid; this should have been for making a responsive grid but instead it just does not make it responsive*/
+    grid-auto-columns: 1fr, auto;
+}
+
+
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }

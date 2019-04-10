@@ -1,0 +1,99 @@
+nav {
+    background: #8e0404;
+    height: 100%;
+    position: relative;
+    overflow: auto; 
+    border-radius: 0px 3px 3px 0px;
+    color: #fff;
+
+/* these also help to make the sidenav bar expand */
+    top: 0;
+    bottom: 0;
+    left: 0;
+    width: 60px;
+    overflow: hidden;
+    transition: width .05s linear;
+    transform: translateZ(1) scale(1,1);
+    z-index: 1000;
+    /* adds shadow this line */
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+ 
+
+  }
+
+/* this makes the sidebar expand */
+  nav:hover{
+    width: 300px;
+    overflow: visible;
+  }
+
+
+  nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  nav ul li a {
+    border-bottom-width: 0.1px;
+    border-bottom-style: inset;
+    color: #fff;
+    padding: 18px;
+    display: block;
+    padding: 1em;
+  }
+
+ a:visited{
+  background-color: rgb(207, 163, 163);
+}
+
+  /* //have the links activated  */
+  nav ul li a .activated {
+    background-color: #070402;
+  }
+  /* mouse hover on this to let the users know where they are  */
+  nav ul li a:hover:not(.activated){
+    background-color: rgb(255, 255, 255);
+    color: black;
+    box-shadow: 8px 4px 4px 1px rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+  nav p {
+    font-family: 'Gill Sans';
+    font-style: normal;
+    color: #fff;
+    padding: 30%;
+    /* these below make the text not move once the user hovers on the sidebar menu */
+    /* position: relative;
+    display: table-cell; */
+  }
+
+  nav li {
+    position: relative;
+    display: block;
+  }
+
+/* this one makes the nav expand and show the description of the icons on the left, needs to be put on a div tag or sth that from which the rest of the tags can inherit this property */
+.showthem:hover .showme{
+  display: block;
+  color: #000000;
+  float: right;
+} 
+/* the previous ones needs to go with this one in order to show the description of the icons */
+.showme{
+  display: none;
+  /* text-align: center; */
+  
+}
+span {
+  color: inherit !important;
+  margin-inline-end: 100px !important;
+}
+span:hover {
+  /* text-align: left; */
+  color: #000000;
+
+}
+.titleMenu{
+  padding: 7px;
+  float: center;
+  position: center;
+}

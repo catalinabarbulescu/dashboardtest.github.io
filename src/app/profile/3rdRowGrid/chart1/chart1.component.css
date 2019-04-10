@@ -1,0 +1,11 @@
+.boxChart1 {
+
+    height: 300px; 
+    width: 100%; 
+    /* margin-left:auto;
+    margin-right:auto; */
+    /* border: 1px solid black; */
+    box-shadow: 0 0 30px -2px rgba(131, 131, 131, 0.2), 0px 0px 30px -2px rgba(131, 131, 131, 0.253);
+    margin-block-start:10px; 
+    
+    }

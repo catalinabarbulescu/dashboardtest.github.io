@@ -1,0 +1,10 @@
+
+  #container {
+    display: grid;
+    grid-template-columns: 60px auto;
+    height: 100%;
+  }
+  #container #content {
+    padding: 0px 0px;
+    height: 100%;
+  }

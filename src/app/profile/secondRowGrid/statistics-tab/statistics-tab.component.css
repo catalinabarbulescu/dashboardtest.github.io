@@ -1,0 +1,19 @@
+nav {
+    background-color: #6e6b6bfb;
+    margin-top: 40px;
+    
+}
+nav a{
+    color: rgb(0, 0, 0);
+    font-family: 'Arial Narrow';
+    font-size: 27px;
+    height: 100%;
+  
+}
+nav a:hover{
+    /* background-color: rgb(255, 254, 254); */
+    text-shadow: 0 0 30px -6px rgb(201, 189, 189), 0px 0px 30px -2px rgba(255, 249, 249, 0.836);
+    height: 100%;
+    color: rgb(253, 250, 250);
+    border-radius: 5%;
+}

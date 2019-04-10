@@ -1,0 +1,12 @@
+
+.boxBar {
+    height: 400px; 
+    width: 100%; 
+    /* margin-left:auto !important;
+    margin-right:auto !important;  */
+    box-shadow: 0 0 30px -2px rgba(131, 131, 131, 0.2), 0px 0px 30px -2px rgba(131, 131, 131, 0.253) !important;
+    margin-block-start: 10px; 
+    display: block;
+}
+
+    

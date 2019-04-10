@@ -1,0 +1,42 @@
+<div class="parent">
+
+  <table style="width: 100%">
+    <tr>
+      <th>Name</th>
+      <th>Percentage</th>
+      <th>Overview</th>
+    </tr>
+    <tr>
+      <td>
+        Instagram
+      </td>
+      <td>20%</td>
+      <td>amazing</td>
+    </tr>
+    
+    <tr>
+      <td>
+        Facebook
+      </td>
+      <td>30%</td>
+      <td>amazing</td>
+    </tr>
+    
+    <tr>
+      <td>
+        Snapchat
+      </td>
+      <td>70%</td>
+      <td>amazing</td>
+    </tr>
+    
+
+  </table>
+  <div class="form-group dropDown">
+    <!-- <label for="time"></label> -->
+    <select class="form-control" id="time" required >
+      
+      <option class=""*ngFor="let time of timeRange" [value]="time">{{time}}</option>
+    </select>
+  </div>
+</div>

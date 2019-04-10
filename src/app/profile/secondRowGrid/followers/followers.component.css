@@ -1,0 +1,21 @@
+.dropDown {
+    width: 10%;
+    border-radius:2%; 
+    /* box-shadow: 0 0 30px -2px rgba(131, 131, 131, 0.2), 0px 0px 30px -2px rgba(131, 131, 131, 0.253); */
+}
+option{
+    width: 8%;
+}
+.parent{
+display: flex;
+flex-flow: row;
+align-content: center;
+justify-content: space-between;
+
+}
+.child{
+    margin: auto;
+}
+tr {
+    border-bottom-color: black;
+}
